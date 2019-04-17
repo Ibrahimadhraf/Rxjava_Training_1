@@ -53,10 +53,10 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onComplete() {
-           Log.d(TAG,"onComplete");
-            }
-        };
+    public void onComplete() {
+        Log.d(TAG,"onComplete");
+    }
+};
     }
     private Observable<Note>getObservable(){
         final List<Note>notes=prepareNote();
